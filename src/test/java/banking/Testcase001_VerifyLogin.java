@@ -35,7 +35,7 @@ public class Testcase001_VerifyLogin {
 		String ExpectedTitle ="Zero - Account Summary";
 		String ActualTitle = driver.getTitle();
 		Assert.assertEquals(ActualTitle, ExpectedTitle);
-		//System.out.println("added");
+		System.out.println("added");
 		
   }
   
